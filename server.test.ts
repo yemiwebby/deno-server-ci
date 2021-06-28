@@ -1,5 +1,5 @@
-import { superoak } from "https://deno.land/x/superoak/mod.ts";
-import { delay } from "https://deno.land/x/delay/mod.ts";
+import { superoak } from "https://deno.land/x/superoak@4.2.0/mod.ts";
+import { delay } from "https://deno.land/x/delay@v0.2.0/mod.ts";
 import app from "./server.ts";
 
 Deno.test(
